@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           text-align: center;
+          margin-top: 150px;
+        
+        }
+        .one{
+            width: 20px;
+            height: 80px;
+            border-radius: 5px;
+            display: inline-flex;
+            background-color: rgb(104, 173, 101);
+            animation: height 1.2s ease infinite alternate;
+            animation-delay: -0.3s;
+        }
+        .two{
+            width: 20px;
+            height: 50px;
+            border-radius: 5px;
+        display: inline-flex;
+        background-color: rgb(56, 165, 53);
+        animation: height 1.2s ease infinite alternate;
+        animation-delay: -0.5s;
+        }
+        .three{
+            width: 20px;
+            height: 70px;
+            border-radius: 5px;
+        display: inline-flex;
+        background-color: rgb(37, 139, 34);
+        animation: height 1.2s ease infinite alternate;
+        animation-delay: -0.7s;
+        }
+        .four{
+            width: 20px;
+            height: 55px;
+        display: inline-flex;
+        border-radius: 5px;
+        background-color: rgb(127, 226, 123); 
+        animation: height 1.2s ease infinite alternate;
+        animation-delay: -0.9s;
+        }
+        .five{
+            width: 20px;
+            height: 75px;
+        display: inline-flex;
+        border-radius: 5px;
+        background-color: rgb(46, 186, 41); 
+        animation: height 1.2s ease infinite alternate;
+        animation-delay: -1.1s;
+        }
+        @keyframes height{
+            10% {
+                transform: scaleY(0.3); 
+              }
+            
+              25% {
+                transform: scaleY(0.9); 
+              }
+            
+              50% {
+                transform: scaleY(0.5);
+              }
+            
+              70% {
+                transform: scaleY(0.75);
+              }
+              100% {
+                transform: scaleY(0.6);
+              }
+            }
+    </style>
+</head>
+<body>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="five"></div>
+</body>
+</html>
